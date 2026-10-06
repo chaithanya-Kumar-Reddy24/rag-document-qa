@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Runtime data (keep the folders, ignore the contents)
+data/uploads/*
+data/chroma_db/*
+data/logs/
+!data/uploads/.gitkeep
+!data/chroma_db/.gitkeep
+
+# Editor / OS
+.vscode/
+.DS_Store
